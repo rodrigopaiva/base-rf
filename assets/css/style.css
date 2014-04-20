@@ -1,0 +1,272 @@
+/*
+ * Theme Name: Template name
+ * Author: rodrigofpaiva [at] gmail.com
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+div,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+div,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+div,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+div {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  outline: none;
+}
+p {
+  line-height: 1.5em;
+}
+.clear {
+  clear: both;
+  height: 0px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-weight: normal;
+}
+section:after,
+div:after {
+  content: "";
+  height: 0;
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+@font-face {
+  font-family: 'Conv_HelveticaNeueLTStd-Lt';
+  src: url('../fonts/HelveticaNeueLTStd-Lt.eot');
+  src: local('☺'), url('../fonts/HelveticaNeueLTStd-Lt.woff') format('woff'), url('../fonts/HelveticaNeueLTStd-Lt.ttf') format('truetype'), url('../fonts/HelveticaNeueLTStd-Lt.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+}
+#header {
+  border-bottom: 1px solid #809293;
+}
+#header h1 {
+  width: 250px;
+  height: 250px;
+  background: url('../img/teste-logo.jpg') repeat;
+}
+#header h1:after {
+  display: block;
+  position: absolute;
+  content: '';
+  bottom: -13px;
+  left: 0;
+  width: 102px;
+  height: 3px;
+  background: #3994d1;
+}
+#header p a {
+  font-family: 'Conv_HelveticaNeueLTStd-Lt';
+  font-size: 15px;
+  color: #ffffff;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background: #662d91;
+  border: red 1px solid;
+}
+#footer {
+  border-top: 1px solid #d1d3d4;
+  padding-top: 40px;
+}
+#main {
+  padding-bottom: 150px;
+}
+::-moz-selection {
+  background: #29120d;
+  color: #fff;
+  text-shadow: none;
+}
+::selection {
+  background: #29120d;
+  color: #fff;
+  text-shadow: none;
+}
+a:link {
+  -webkit-tap-highlight-color: #29120d;
+}
+textarea,
+input,
+select {
+  outline: none;
+}
+textarea {
+  resize: none;
+  overflow: auto;
+}
+.spr {
+  display: block;
+  overflow: hidden;
+  text-indent: -9999em;
+  background-image: url('../img/sprite.png');
+  background-repeat: no-repeat;
+}
+body .bg-none {
+  background: none !important;
+}
+body .no-margin {
+  margin: 0 !important;
+}
+body .no-padding {
+  padding: 0 !important;
+}
+body .no-border {
+  border: 0 !important;
+}
+body .clear {
+  clear: both;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+}
+body .left {
+  float: left;
+}
+body .right {
+  float: right;
+}
+body .block {
+  display: block;
+}
+body .none {
+  display: none;
+}
+body .relative {
+  position: relative;
+}
+body .absolute {
+  position: absolute;
+}
+body .sumir {
+  overflow: hidden;
+  text-indent: -999em;
+}

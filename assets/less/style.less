@@ -1,0 +1,148 @@
+/*
+ * Theme Name: Template name
+ * Author: rodrigofpaiva [at] gmail.com
+*/
+
+@import "utils/utils";
+@import "utils/reset";
+@import "utils/fonts";
+
+// ==========================================================================
+// vars
+// ==========================================================================
+@black : #000;
+@white : #fff;
+@blue : #3994d1;
+@purple : #662d91;
+
+@helvetica_lt : 'Conv_HelveticaNeueLTStd-Lt';
+@sans : 'Open Sans';
+
+// ==========================================================================
+// all - main
+// ==========================================================================
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+
+// ==========================================================================
+// header
+// ==========================================================================
+#header {
+	border-bottom: 1px solid #809293;
+
+	h1 {
+		width: 250px;
+		height: 250px;
+		background: url('@{BASE_IMG}/teste-logo.jpg') repeat;
+
+		&:after {
+			display: block;
+			position: absolute;
+			content: '';
+			bottom: -13px;
+			left: 0;
+			width: 102px;
+			height: 3px;
+			background: @blue;
+		}
+	}
+
+	p {
+		a {
+			.font-mixin(@helvetica_lt, 15px, @white);
+			.border-radius(3px);
+			background: @purple;
+			border: red 1px solid;
+		}
+	}
+}
+
+
+// ==========================================================================
+// footer
+// ==========================================================================
+#footer {
+	border-top: 1px solid #d1d3d4;
+	padding-top: 40px;
+}
+
+
+// ==========================================================================
+// content - pages
+// ==========================================================================
+#main {
+	padding-bottom: 150px;
+}
+
+#content {
+
+
+
+}
+
+// ==========================================================================
+// pages @import
+// ==========================================================================
+
+// home
+@import "pages/home";
+
+
+
+// ==========================================================================
+// class
+// ==========================================================================
+::-moz-selection{
+	background: #29120d;
+	color:#fff;
+	text-shadow: none;
+}
+
+::selection {
+	background:#29120d;
+	color:#fff;
+	text-shadow: none;
+}
+
+a:link {
+	-webkit-tap-highlight-color: #29120d;
+}
+
+textarea, input, select {
+	outline:none;
+}
+
+textarea {
+	resize:none;
+	overflow:auto;
+}
+
+.spr {
+	display: block;
+	overflow: hidden;
+	text-indent: -9999em;
+	background-image: url('@{BASE_IMG}/sprite.png');
+	background-repeat: no-repeat;
+}
+
+body .bg-none{background:none!important}
+body .no-margin{margin:0!important}
+body .no-padding{padding:0!important}
+body .no-border{border:0 !important}
+body .clear{clear:both;font-size:0;height:0;line-height:0}
+body .left{float:left}
+body .right{float: right}
+body .block{display:block}
+body .none{display:none}
+body .relative{position:relative}
+body .absolute{position:absolute}
+body .sumir{overflow:hidden;text-indent:-999em}
+

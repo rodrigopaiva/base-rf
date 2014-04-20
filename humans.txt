@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Frontend: Rodrigo Felipe
+	Contact:  rodrigofpaiva [at] gmail.com
+	LinkedIn: http://br.linkedin.com/in/rodrigofelipe
+	Location: Recife, Pernambuco, Brazil
+
+# THANKS
+
+    <name>
+
+# ABOUT SITE
+  Language:	  Brazilian Portuguese
+  Technology: HTML5, CSS3, Modernizr, jQuery, PHP, Less
+  IDE: 		  Sublime Text, Photoshop

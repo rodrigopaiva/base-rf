@@ -1,0 +1,60 @@
+@BASE_IMG : '../img';
+@BASE_FONTS : '../fonts';
+
+.font-mixin(@font, @size, @color){
+	font-family: @font;
+	font-size: @size;
+	color: @color;
+}
+
+.box-shadow(@prop){
+	box-shadow: @prop;
+	-moz-box-shadow: @prop;
+	-webkit-box-shadow: @prop;
+}
+
+.border-radius(@border : 5px){
+	border-radius: @border;
+	-moz-border-radius: @border;
+	-webkit-border-radius: @border;
+}
+
+.opacity(@num){
+	@ie : @num * 100;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=@{ie})";
+	filter: alpha(opacity=@ie);
+	-moz-opacity: @num;
+	-khtml-opacity: @num;
+	opacity: @num;
+}
+
+.transition(@prop: all .3s ease-out){
+	-webkit-transition: @prop;
+	-moz-transition: @prop;
+	-ms-transition: @prop;
+	-o-transition: @prop;
+	transition: @prop;
+}
+
+.transform(@prop) {
+	-moz-transform: @prop;
+	-webkit-transform: @prop;
+	-o-transform: @prop;
+	-ms-transform: @prop;
+	transform: @prop;
+}
+
+.textshadow(@prop) {
+	-moz-text-shadow: @prop;
+	-webkit-text-shadow: @prop;
+	-o-text-shadow: @prop;
+	-ms-text-shadow: @prop;
+	text-shadow: @prop;
+}
+
+.animation(@prop) {
+	-webkit-animation: @prop;
+	-moz-animation: @prop;
+	-o-animation: @prop;
+	animation: @prop;
+}

@@ -1,4 +1,4 @@
 base-rf
 =======
 
-Template para desenvolvimento de um novo projeto web.
+Template para desenvolvimento de um novo projeto web usando Less.
