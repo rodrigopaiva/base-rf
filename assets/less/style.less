@@ -84,7 +84,22 @@ body {
 
 #content {
 
+	a {
+		margin: 35px 0 0 0;
+		.font-mixin(@titillium_sb, 14px, @white);
+		width: 124px;
+		height: 43px;
+		text-align: center;
+		line-height: 45px;
+		border: 1px solid @white;
+		.border-radius(3px);
+		.transition(0.5s, ease-out);
 
+		&:hover {
+			background: @green;
+			border: 1px solid @green;
+		}
+	}
 
 }
 
