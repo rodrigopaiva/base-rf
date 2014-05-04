@@ -13,6 +13,8 @@
         <meta name="keywords" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+        <link rel="author" type="text/plain" href="humans.txt" />
+
         <!-- Facebook Tags -->
         <meta property="og:description" content="Descricao.">
         <meta property="og:image" content="http://www.rodrigofelipe.com.br/images/thumbnail-share.jpg">
