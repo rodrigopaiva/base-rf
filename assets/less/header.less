@@ -1,0 +1,29 @@
+#header {
+	border-bottom: 1px solid #809293;
+
+	h1 {
+		width: 250px;
+		height: 250px;
+		background: url('@{BASE_IMG}/teste-logo.jpg') repeat;
+
+		&:after {
+			display: block;
+			position: absolute;
+			content: '';
+			bottom: -13px;
+			left: 0;
+			width: 102px;
+			height: 3px;
+			background: @blue;
+		}
+	}
+
+	p {
+		a {
+			.font-mixin(@helvetica_lt, 15px, @white);
+			.border-radius(3px);
+			background: @purple;
+			border: red 1px solid;
+		}
+	}
+}

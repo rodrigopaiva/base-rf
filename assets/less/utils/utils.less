@@ -7,6 +7,12 @@
 	color: @color;
 }
 
+.font-mixin-sans(@weight, @size, @color){
+	font-weight: @weight;
+	font-size: @size;
+	color: @color;
+}
+
 .box-shadow(@prop){
 	box-shadow: @prop;
 	-moz-box-shadow: @prop;
@@ -56,4 +62,33 @@
 	-moz-animation: @prop;
 	-o-animation: @prop;
 	animation: @prop;
+}
+
+.gradient (@startColor, @endColor) {
+	background-color: @startColor;
+	background: -webkit-gradient(linear, left top, left bottom, from(@startColor), to(@endColor));
+	background: -webkit-linear-gradient(top, @startColor, @endColor);
+	background: -moz-linear-gradient(top, @startColor, @endColor);
+	background: -ms-linear-gradient(top, @startColor, @endColor);
+	background: -o-linear-gradient(top, @startColor, @endColor);
+}
+
+.horizontal-gradient (@startColor, @endColor) {
+	background-color: @startColor;
+	background: -moz-linear-gradient(left, @startColor 0%, @startColor 50%, @endColor 50%, @endColor 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, @startColor), color-stop(50%, @startColor), color-stop(50%, @endColor), color-stop(100%, @endColor));
+	background: -webkit-linear-gradient(left, @startColor 0%, @startColor 50%, @endColor 50%, @endColor 100%);
+	background: -o-linear-gradient(left, @startColor 0%, @startColor 50%, @endColor 50%, @endColor 100%);
+	background: -ms-linear-gradient(left, @startColor 0%, @startColor 50%, @endColor 50%, @endColor 100%);
+	background: linear-gradient(to right, @startColor 0%, @startColor 50%, @endColor 50%, @endColor 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@startColor', endColorstr='@endColor', GradientType=1 );
+}
+
+.horizontal-gradient2 (@startColor, @endColor) {
+ 	background-color: @startColor;
+	background-image: -webkit-gradient(linear, left top, right top, from(@startColor), to(@endColor));
+	background-image: -webkit-linear-gradient(left, @startColor, @endColor);
+	background-image: -moz-linear-gradient(left, @startColor, @endColor);
+	background-image: -ms-linear-gradient(left, @startColor, @endColor);
+	background-image: -o-linear-gradient(left, @startColor, @endColor);
 }
