@@ -1,9 +1,20 @@
-<header id="header">
-    <h1 class="logo">
-        <a href="index.php" class="sumir block">
-            logomarca
-        </a>
-    </h1>
+<header class="header-primary">
+	<h1 class="left">
+		<a href="#" title="">logo</a>
+	</h1>
 
-    <p><a href="">header link</a></p>
+	<!-- inicio do menu -->
+		<input type="checkbox" id="control-nav" />
+		<label for="control-nav" class="control-nav"></label>
+		<label for="control-nav" class="control-nav-close"></label>
+
+		<nav class="nav-primary right">
+			<ul class="list-auto">
+				<li><a href="#" title="">item01</a></li>
+				<li><a href="#" title="">item02</a></li>
+				<li><a href="#" title="">item03</a></li>
+				<li><a href="#" title="">item04</a></li>
+			</ul>
+		</nav>
+	<!-- final do menu -->
 </header>

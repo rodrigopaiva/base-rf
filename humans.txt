@@ -1,3 +1,7 @@
+###########################################################
+#                    Our Team
+############################################################
+
 # humanstxt.org/
 # The humans responsible & technology colophon
 
@@ -12,7 +16,8 @@
 
     <name>
 
-# ABOUT SITE
+# ABOUT PROJECT
+
   Language:	  Brazilian Portuguese
   Technology: HTML5, CSS3, Modernizr, jQuery, PHP, Less
   IDE: 		  Sublime Text, Photoshop
