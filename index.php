@@ -73,33 +73,54 @@
             <?php include_once "_inc/header.php"; ?>
 
 
+            <div class="main">
+                <article>
+                    <header>
+                        <h1>article header h1</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec.</p>
+                    </header>
 
-            <section>
-                <br /><br /><br /><br /><br /><br /><br /><br />
+                    <section>
+                        <h2>article section h2</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
+                    </section>
 
-                <p>Hello world! This is content</p>
+                    <section class="teste">
+                        <h2>article section h2</h2>
+                        <p><a href="">Lorem ipsum</a> dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
+                        <img src="images/chaves.jpg" />
+                        <a href="" class="link_bg sumir block">link com imagem</a>
+                    </section>
 
-                <p><a href="">link</a></p>
+                    <footer>
+                        <h3>article footer h3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor.</p>
+                    </footer>
+                </article>
 
-                <div class="teste">
-                    <img src="images/chaves.jpg" />
-                </div>
-            </section>
+                <article>
+                    <header>
+                        <h1>botoes</h1>
+                    </header>
 
-            <aside class="social-share">
-              <ul class="social-list">
-                <li class="social-item"><a target="_blank" href="http://www.facebook.com" class="social-link">Facebook</a></li>
-                <li class="social-item"><a target="_blank" href="http://www.twitter.com" class="social-link">Twiiter</a></li>
-                <li class="social-item"><a target="_blank" href="http://www.github.com" class="social-link">Github</a></li>
-              </ul>
-            </aside>
-
+                    <section>
+                        <button class="btn">botao default</button>
+                        <button class="btn btn-success">botao success</button>
+                        <button class="btn btn-alert">botao alert</button>
+                    </section>
+                </article>
 
 
-            <?
-            /*** FOOTER
-             */
-            ?>
+                <aside>
+                    <ul class="social-list">
+                        <li class="social-item"><a target="_blank" href="http://www.facebook.com" class="social-link">Facebook</a></li>
+                        <li class="social-item"><a target="_blank" href="http://www.twitter.com" class="social-link">Twiiter</a></li>
+                        <li class="social-item"><a target="_blank" href="http://www.github.com" class="social-link">Github</a></li>
+                    </ul>
+                </aside>
+            </div><!-- main -->
+
+
             <?php include_once "_inc/footer.php"; ?>
 
         </div><!-- end all -->
