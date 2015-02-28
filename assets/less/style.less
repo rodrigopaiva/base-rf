@@ -38,46 +38,73 @@
 // ==========================================================================
 // content - objects
 // ==========================================================================
-	img {width: 100%;}
+	img {
+    width: 100%;
+  }
+
+  ::-moz-selection{
+    background: #29120d;
+    color:#fff;
+    text-shadow: none;
+  }
+
+  ::selection {
+    background:#29120d;
+    color:#fff;
+    text-shadow: none;
+  }
+
+  a:link {
+    -webkit-tap-highlight-color: #29120d;
+  }
+
+  textarea, input, select {
+    outline:none;
+  }
+
+  textarea {
+    resize:none;
+    overflow:auto;
+  }
 
 // ==========================================================================
 // content - pages
 // ==========================================================================
-/* melhorar isso aqui */
-.teste {
-	a {
-    .font-mixin(@verdana, 15px, @white);
-    .border-radius(3px);
-    background: @purple;
-    border: red 1px solid;
-  }
-
-  img {
-    width: 44%;
-    margin: 0 0 10px 4%;
-	}
-
-  .link_bg {
-    width: 250px;
-    height: 250px;
-    background: url('@{BASE_IMG}/teste-logo.jpg') repeat;
-    .transition(0.5s, ease-out);
-
-    &:hover {
-      .opacity(.4);
-      border: 1px solid green;
+  /* apenas exemplos de como usar - retirar no desenvolvimento */
+  .teste {
+  	a {
+      .font-mixin(@verdana, 15px, @white);
+      .border-radius(3px);
+      background: @purple;
+      border: red 1px solid;
     }
 
-    &:after {
-      display: block;
-      content: '';
-      width: 102px;
-      height: 50px;
-      background: @blue;
-      margin: 0 0 0 150px;
+    img {
+      width: 44%;
+      margin: 0 0 10px 4%;
+  	}
+
+    .link_bg {
+      width: 250px;
+      height: 250px;
+      background: url('@{BASE_IMG}/teste-logo.jpg') repeat;
+      .transition(0.5s, ease-out);
+
+      &:hover {
+        .opacity(.4);
+        border: 1px solid green;
+      }
+
+      &:after {
+        display: block;
+        content: '';
+        width: 102px;
+        height: 50px;
+        background: @blue;
+        margin: 0 0 0 150px;
+      }
     }
   }
-}
 
 
 // ==========================================================================
@@ -92,37 +119,19 @@
 // ==========================================================================
 // class
 // ==========================================================================
-  ::-moz-selection{
-  	background: #29120d;
-  	color:#fff;
-  	text-shadow: none;
-  }
-
-  ::selection {
-  	background:#29120d;
-  	color:#fff;
-  	text-shadow: none;
-  }
-
-  a:link {
-  	-webkit-tap-highlight-color: #29120d;
-  }
-
-  textarea, input, select {
-  	outline:none;
-  }
-
-  textarea {
-  	resize:none;
-  	overflow:auto;
-  }
-
   .spr {
   	display: block;
   	overflow: hidden;
   	text-indent: -9999em;
   	background-image: url('@{BASE_IMG}/sprite.png');
   	background-repeat: no-repeat;
+  }
+
+  .browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
   }
 
   body .bg-none{background:none!important}
@@ -137,13 +146,6 @@
   body .relative{position:relative}
   body .absolute{position:absolute}
   body .sumir{overflow:hidden;text-indent:-999em}
-
-  .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-  }
 
 
 // ==========================================================================

@@ -74,6 +74,12 @@
 
 
             <div class="main">
+                <ul class="breadcrumb">
+                  <li><a href="#">Home</a> <span class="divider">/</span></li>
+                  <li><a href="#">Library</a> <span class="divider">/</span></li>
+                  <li class="active">Data</li>
+                </ul>
+
                 <article>
                     <header>
                         <h1>article header h1</h1>
@@ -106,7 +112,40 @@
                     <section>
                         <button class="btn">botao default</button>
                         <button class="btn btn-success">botao success</button>
-                        <button class="btn btn-alert">botao alert</button>
+                        <button class="btn btn-warning">botao warning</button>
+                        <button class="btn btn-error">botao error</button>
+                        <button class="btn btn-info">botao info</button>
+                        <button class="btn btn-round">botao round</button>
+                        <button class="btn btn-radius">botao radius</button>
+
+                        <button class="btn close">&times;</button>
+                        <a class="close" href="#">&times;</a>
+                    </section>
+                </article>
+
+                <article>
+                    <header>
+                        <h1>tabelas</h1>
+                    </header>
+
+                    <section>
+                        <table>
+                            <caption>estrutura de uma tabela básica</caption>
+
+                            <thead>
+                                <tr>
+                                    <th>element 01 header</th>
+                                    <th>element 02 header</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>element 01 body</td>
+                                    <td>element 02 body</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </section>
                 </article>
 
@@ -118,6 +157,19 @@
                         <li class="social-item"><a target="_blank" href="http://www.github.com" class="social-link">Github</a></li>
                     </ul>
                 </aside>
+
+
+                <div class="pagination">
+                  <ul>
+                    <li><a href="#">Prev</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">Next</a></li>
+                  </ul>
+                </div>
             </div><!-- main -->
 
 
