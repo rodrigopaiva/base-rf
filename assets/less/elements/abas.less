@@ -1,0 +1,75 @@
+// ABAS
+  .site-tabs {
+    background: #fffde9;
+    margin-right: 20px;
+
+    // navegacao das abas
+      .nav-tabs {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background: #2c1827;
+
+        .tab-item {
+          list-style: none;
+          float: left;
+
+          a {
+            padding: 20px 40px;
+            display: block;
+            background: #2c1827;
+            .font-mixin(arial, 16px, #fffde9);
+            text-decoration: none;
+            line-height: 20px;
+            text-align: center;
+            .transition(0.5s, ease-out);
+
+            &:hover {
+              background: #fffde9;
+              .font-mixin(arial, 16px, #43263b);
+            }
+          }
+
+          .current {
+            background: #fffde9;
+            .font-mixin(arial, 16px, #43263b);
+          }
+        }
+      }
+
+
+    // conteudo das abas
+      .content-tabs {
+        .font-mixin(arial, 14px, #43263b);
+
+        .tab-content {
+          width: 100%;
+          display:none;
+
+          table {
+            margin: auto;
+            width: 100%;
+
+            td {
+              padding: .5em;
+              line-height: 20px;
+
+              &.valor-prato-1, &.valor-prato-2 {
+                width: 80px;
+                text-align: center;
+                vertical-align: middle;
+                border-right: 2px solid #2c1827;
+              }
+
+              &.valor-prato-1 {
+                border-bottom: 2px solid #2c1827;
+              }
+
+              &.lista-pratos-1 {
+                border-bottom: 2px solid #2c1827;
+              }
+            }
+          }
+        }
+      }
+  }

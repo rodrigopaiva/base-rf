@@ -173,6 +173,11 @@
             </div><!-- main -->
 
 
+
+            <?php include_once "_inc/abas.php"; ?>
+
+
+
             <?php include_once "_inc/footer.php"; ?>
 
         </div><!-- end all -->
