@@ -29,6 +29,15 @@ $(document).ready(function() {
 			return false;
 		});
 
+
+	/* lightbox */
+        $('.fancybox').fancybox();
+
+        // abrir lightbox na hash
+        if(window.location.hash) {
+            $.fancybox.open(thisHash);
+        }
+
     /* verifica a existencia do objeto */
     if ($('.classe').size() > 0) {
     	// aqui js

@@ -70,6 +70,8 @@
 
         <div class="all">
 
+            <?php include_once "_inc/lightbox.php"; ?>
+
             <?php include_once "_inc/header.php"; ?>
 
 
@@ -93,7 +95,7 @@
 
                     <section class="teste">
                         <h2>article section h2</h2>
-                        <p><a href="">Lorem ipsum</a> dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
+                        <p><a href="#modal-form-login" class="fancybox">Lightbox</a> dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
                         <img src="images/chaves.jpg" />
                         <a href="" class="link_bg sumir block">link com imagem</a>
                     </section>
