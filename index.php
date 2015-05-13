@@ -2,31 +2,33 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="pt-br"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="content-language" content="pt-br" />
+        <meta http-equiv="cache-control" content="no-cache" />
 
         <title>titulo do projeto</title>
 
         <meta name="description" content="" />
         <meta name="keywords" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <!-- META TAGS -->
 
+        <!-- META TAGS -->
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         <meta name="apple-touch-fullscreen" content="yes" />
         <meta name="HandheldFriendly" content="true" />
-        <meta name="format-detection" content="telephone=yes">
-        <meta name="DC.title" content="titulo do projeto">
-        <meta name="DC.publisher" content="nome do desenvolvedor">
-        <meta name="DC.creator.address" content="dev_name@gmail.com">
-        <meta name="robots" content="all">
-        <meta name="author" content="nome do desenvolvedor">
-        <meta name="rating" content="general">
-        <meta name="distribution" content="global">
-        <meta name="copyright" content="titulo do projeto - Todos os direitos reservados">
+        <meta name="format-detection" content="telephone=yes" />
+        <meta name="DC.title" content="titulo do projeto" />
+        <meta name="DC.publisher" content="nome do desenvolvedor" />
+        <meta name="DC.creator.address" content="dev_name@gmail.com" />
+        <meta name="robots" content="Index" />
+        <meta name="author" content="nome do desenvolvedor" />
+        <meta name="rating" content="general" />
+        <meta name="distribution" content="global" />
+        <meta name="copyright" content="titulo do projeto - Todos os direitos reservados" />
 
         <!-- Team -->
         <link rel="author" type="text/plain" href="humans.txt" />
