@@ -8,30 +8,33 @@
 
         <div class="all">
 
-            <?php include_once "_inc/lightbox.php"; ?>
-
             <?php include_once "_inc/header.php"; ?>
 
 
-            <div class="main">
-                <nav class="mapa-template">
-                    <h2>ELEMENTOS</h2>
+            <nav class="mapa-template">
+                <h2>ELEMENTOS</h2>
 
-                    <ul>
-                        <li><a href="elements/botoes.php">Botões</a></li>
-                    </ul>
-                </nav><!-- mapa-template -->
-
-
-
-
-                <ul class="breadcrumb">
-                  <li><a href="#">Home</a> <span class="divider">/</span></li>
-                  <li><a href="#">Library</a> <span class="divider">/</span></li>
-                  <li class="active">Data</li>
+                <ul>
+                    <li><a href="elements/botoes.php">Botões</a></li>
+                    <li><a href="elements/breadcrumb.php">Breadcrumb</a></li> <!-- ver semantic -->
+                    <li><a href="elements/tabelas.php">Tabelas</a></li>
+                    <li><a href="elements/paginacao.php">Paginação</a></li>
                 </ul>
 
-                <article>
+
+                <h2>MÓDULOS</h2>
+
+                <ul>
+                    <li><a href="modulos/header-responsivo.php">Header Responsivo</a></li>
+                    <li><a href="modulos/lightbox-fancybox.php">Lightbox Fancybox</a></li>
+                    <li><a href="modulos/social-links.php">Social Links</a></li>
+                    <li><a href="modulos/abas.php">Abas</a></li>
+                </ul>
+            </nav><!-- mapa-template -->
+
+
+            <div class="main">
+                <article class="left">
                     <header>
                         <h1>article header h1</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec.</p>
@@ -42,91 +45,17 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
                     </section>
 
-                    <section class="teste">
-                        <h2>article section h2</h2>
-                        <p><a href="#modal-form-login" class="fancybox">Lightbox</a> dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
-                        <img src="images/chaves.jpg" />
-                        <a href="" class="link_bg sumir block">link com imagem</a>
-                    </section>
-
                     <footer>
                         <h3>article footer h3</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor.</p>
                     </footer>
                 </article>
 
-                <article>
-                    <header>
-                        <h1>botoes</h1>
-                    </header>
 
-                    <section>
-                        <button class="btn">botao default</button>
-                        <button class="btn btn-success">botao success</button>
-                        <button class="btn btn-warning">botao warning</button>
-                        <button class="btn btn-error">botao error</button>
-                        <button class="btn btn-info">botao info</button>
-                        <button class="btn btn-round">botao round</button>
-                        <button class="btn btn-radius">botao radius</button>
-
-                        <button class="btn close">&times;</button>
-                        <a class="close" href="#">&times;</a>
-                    </section>
-                </article>
-
-                <article>
-                    <header>
-                        <h1>tabelas</h1>
-                    </header>
-
-                    <section>
-                        <table>
-                            <caption>estrutura de uma tabela básica</caption>
-
-                            <thead>
-                                <tr>
-                                    <th>element 01 header</th>
-                                    <th>element 02 header</th>
-                                </tr>
-                            </thead>
-
-                            <tbody>
-                                <tr>
-                                    <td>element 01 body</td>
-                                    <td>element 02 body</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </section>
-                </article>
-
-
-                <aside>
-                    <ul class="social-list">
-                        <li class="social-item"><a target="_blank" href="http://www.facebook.com" class="social-link">Facebook</a></li>
-                        <li class="social-item"><a target="_blank" href="http://www.twitter.com" class="social-link">Twiiter</a></li>
-                        <li class="social-item"><a target="_blank" href="http://www.github.com" class="social-link">Github</a></li>
-                    </ul>
+                <aside class="right">
+                    LATERAL DO SITE
                 </aside>
-
-
-                <div class="pagination">
-                  <ul>
-                    <li><a href="#">Prev</a></li>
-                    <li><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
-                    <li><a href="#">Next</a></li>
-                  </ul>
-                </div>
             </div><!-- main -->
-
-
-
-            <?php include_once "_inc/abas.php"; ?>
-
 
 
             <?php include_once "_inc/footer.php"; ?>
