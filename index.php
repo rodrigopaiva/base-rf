@@ -1,3 +1,4 @@
+<?php header ('Content-type: text/html; charset=UTF-8'); ?>
 <?php include_once "_inc/headlines.php"; ?>
 
 
