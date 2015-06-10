@@ -1,7 +1,3 @@
-<?php
-    $baseUrl     = 'http://localhost/rodrigo/base-rf';
-?>
-
 <!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
@@ -35,14 +31,14 @@
         <meta name="copyright" content="titulo do projeto - Todos os direitos reservados" />
 
         <!-- Team -->
-        <link rel="author" type="text/plain" href="<?php echo $baseUrl; ?>/humans.txt" />
+        <link rel="author" type="text/plain" href="humans.txt" />
 
         <!-- Favicons -->
-        <link rel="shortcut icon" type="image/x-icon" href="<?php echo $baseUrl; ?>/favicon.ico?v=2">
-        <link rel="apple-touch-icon" href="<?php echo $baseUrl; ?>/apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="<?php echo $baseUrl; ?>/touch-icon-ipad.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="<?php echo $baseUrl; ?>/touch-icon@2x.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="<?php echo $baseUrl; ?>/touch-icon-ipad@2x.png">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?v=2">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="touch-icon-ipad.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="touch-icon@2x.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad@2x.png">
 
         <!-- Facebook Tags -->
         <meta property="og:description" content="Descricao.">
@@ -61,9 +57,9 @@
         <meta name="twitter:image" content="http://www.meusite.com.br/images/thumbnail-share.jpg">
 
         <!-- Styles -->
-        <link rel="stylesheet" href="<?php echo $baseUrl; ?>/assets/css/normalize.min.css" />
-        <link rel="stylesheet" href="<?php echo $baseUrl; ?>/assets/css/style.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="assets/css/normalize.min.css" />
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="screen" />
 
         <!-- Scripts -->
-        <script src="<?php echo $baseUrl; ?>/assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>

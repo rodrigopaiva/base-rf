@@ -1,8 +1,8 @@
 <!-- jQuery online -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
-        <script src="<?php echo $baseUrl; ?>/assets/js/plugins.js"></script>
-        <script src="<?php echo $baseUrl; ?>/assets/js/main.js"></script>
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/main.js"></script>
 
         <!-- Google Analytics -->
         <script>
